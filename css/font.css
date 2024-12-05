@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Avenir Next Rounded';
+    src: url('../font/Avenir/AvenirNextRoundedStd-Reg.ttf');
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/Myriad/MYRIADPRO-REGULAR.woff');
+}
+
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../font/Myriad/MYRIADPRO-BOLD.woff');
+}

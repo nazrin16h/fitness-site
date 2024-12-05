@@ -1,0 +1,141 @@
+:root{
+    --qirmizi:#fd634d;
+    --yasil:#a1c927;
+}
+header{
+    position: relative;
+    background: url('../img/headerbg.jpg') 60% 50%/cover;
+    height: 100vh;
+    text-align: center;
+}
+nav, #title{
+    position: absolute;
+    width: 100%;
+}
+menu li a {
+    font: .8em 'Avenir Next Rounded', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav{
+    top: 40px;
+    padding: 0 50px;
+}
+#title { bottom: 16vh; }
+#title h1 {
+    font: 2em 'Myriad Pro';
+    text-transform: uppercase;
+    color: #fff;
+}
+#title h5 {
+    font: 1em 'Myriad Pro';
+    /* letter-spacing: 3px; */
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 span { color: #a2ca28}
+h5 span { color: #f0604c}
+.bgyasil{background-color:var(--yasil) ;}
+.bgqirmizi{background-color: var(--qirmizi);}
+.bgag{background-color: #fff;}
+.txtag{color: #fff;}
+.txtqirmizi{color: var(--qirmizi);}
+.txtyasil{color: var(--yasil);}
+.bgqara{color: #000;}
+.height50 { min-height: 50vh; }
+.artpadding { padding: 54px 38px;}
+.center { text-align: center;} 
+.paddinginpt{
+    padding:10px 5px;
+    margin: 5px;} 
+.bdrad{
+    border-radius: 2px;
+    border: 1 px solid #333;}
+footer{
+    background: #000;
+}
+.ft-p{padding: 20px;}
+.ft-p p{
+    font: .75em "Open Sans", sans-serif 400;
+    color: #8297a7;
+}
+.forms {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+    padding: 10px 25vw;
+}
+button{
+    border: 0;
+    border-radius: 5px;
+}
+.icons i{width: 50px;
+    height: 50px;
+    border-radius: 26px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 10px;
+    }
+#art4 { padding: 70px 0;}
+#art4 article{padding:30px 10px }
+#art4 article i{font-size: 2.5em;}
+#fitnessfirst{background: url('../img/fitnessfirst.jpg') center/cover;}
+#yourbody{background: url('../img/yourbody.jpg') center/cover;}
+#lifestyle{background: url('../img/lifestyle.jpg') center/cover;}
+#summeroffun{background: url('../img/summeroffun.jpg') center/cover;}
+#grape{background: url('../img/grape.jpg') center/cover;}
+#mango{background: url('../img/mango.jpg') center/cover;}
+#linkd{background-color: #00aeef;}
+#fcb{background-color: #2e3192;}
+#ytb{background-color: #ed3123;}
+#twt{background-color: #171a8f;}
+
+@media only screen and (min-width: 768px){
+    header{text-align: center;}
+    h1{font-size: 2.5em;}
+    h5{padding: 0 20px 0 0 ;}
+    menu { 
+        float: right; 
+        padding: 10px 0;
+    }
+    menu li { 
+        display: inline-block;
+        padding: 0 2vw;
+    }
+    #title {
+        left: 115px;
+        width: initial;
+        text-align: right;
+    }
+    nav a img{
+        float: left;
+        margin:-5px 40px ;
+    }
+    .container{
+        padding: 0 200px;
+    }
+    
+    .row::after {
+        display: table;
+        content: '';
+        clear: both; 
+    }
+    .fleft { float: left }
+    .fright { float: right }
+    .col25 { width: 25% }
+    .col33 { width: 33.33% }
+    .col66 { width: 66.66% }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .icons .icon{
+        display: flex;
+        flex-direction:row ;
+    }
+    .forms{
+        display: flex;
+        flex-direction: row;
+    }
+}
